@@ -24,8 +24,7 @@ const cardInfo = [
     text: "Computer Science Major at Texas A&M University-San Antonio",
   },
   {
-    image:
-      "https://lh3.googleusercontent.com/pw/ACtC-3flaqcgtIKe3thNWIESUMoln8OABSLt1UFU76dvDPkN8ELW18DKCTW8JM9lw2XCwtUZtk_2XvzKc5BEPan7jIgGjPAwHzfOI_DW6u8QRYWjBg1xkB2qY_AdQ7aXWVh0sU9w6AMjHD-ivYwi_zCu51-hIQ=w525-h658-no?authuser=0",
+    image:"https://lh3.googleusercontent.com/pw/ACtC-3f2qHZ6lJ1LUqrmjygLynztCO3KIn1Bp8efjCV5et2-dZco-VOB0JY3WvPrmm80NmgCLywDCbrpa743HrL6t8_YSQB-ExhbYPWSMxm1Cgc6IYn1kM835ZrPm36YtikzedU_eTNlhNvWntmn0HZ3w7zhRw=w525-h658-no?authuser=0",
     title: "Anisha Raju",
     Subtitle: "Class of 2024",
     text: "Computer Science Major at California Polytechnic University",
@@ -45,9 +44,9 @@ function Team() {
       <Row>
         {
           cardInfo.map((card, index) => (
-            < Col sm='6' md='4'>
-              <Card style={{ width: "22rem" }} key={index} className="box">
-                <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
+            < Col sm='6' md='4' key={index}>
+              <Card style={{ width: "22rem" }}  className="box">
+                <Card.Img variant="top" src={card.image} />
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
                   <Card.Subtitle>{card.Subtitle}</Card.Subtitle>
