@@ -1,11 +1,12 @@
 import React from 'react';
-//import TeamComponent
+import Tools from '../components/Tools'
 import Team from '../components/Team'
 
 function LandingPage(){
     return(
         <div>
             <Team/>
+            <Tools/>
         </div>
     )
 }
