@@ -26,7 +26,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project was created by ___ during the Spring 2021 session of Codubee. We built this application as a solution to those who cannot understand news in English text.
+This project was created by [Anisha](https://github.com/anisharajuu), [Bushra](https://github.com/bushra-h), [Jane](https://github.com/galJane), [Khushi](https://github.com/khushij122), and [Soundarya](https://github.com/soundaryabaskar) during the Spring 2021 session of Codubee. We built this application as a solution to those who cannot understand news in English text.
 
 
 <!-- GETTING STARTED -->
