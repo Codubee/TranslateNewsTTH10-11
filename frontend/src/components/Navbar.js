@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Navbar,
   Nav,
   NavItem,
   NavLink,
 } from 'reactstrap';
-
+import '../styles/Navbar.css'
 function MyNavBar(){
 
   return (
