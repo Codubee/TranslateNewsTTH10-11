@@ -1,7 +1,11 @@
-import React from react 
+import React from 'react' 
 
-function Tools() {
-    return <h1>Tools include: React, NodeJs, Jira, Postman, AWS, Heroku</h1>
+function Tools() { 
+    return (
+        <center>
+            <h1>Tools include: React, NodeJs, Jira, Postman, AWS, Heroku</h1>
+        </center>
+    )
 }
 
 
