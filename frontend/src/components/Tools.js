@@ -1,10 +1,10 @@
 import React from 'react' 
-
+import '../styles/Tools.css'
 function Tools() { 
     return (
-        <center>
+        <div className="tools-div">
             <h1>Tools include: React, NodeJs, Jira, Postman, AWS, Heroku</h1>
-        </center>
+        </div>
     )
 }
 
