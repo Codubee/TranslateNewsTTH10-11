@@ -1,14 +1,15 @@
 import React from 'react';
 import Explanation from '../components/Explanation';
-import MyNavBar from '../components/Navbar';
 import Team from '../components/Team'
+import Features from '../components/Features'
 
 function LandingPage(){
     return(
         <div>
             <Explanation/>
+            <Features/>
             <Team/>
-        </div>
+        <div/>
     )
 }
 
