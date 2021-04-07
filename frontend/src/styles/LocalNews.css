@@ -1,0 +1,11 @@
+.container{
+   padding: 1%; 
+}
+
+
+.images{
+        height: 15rem;
+        width: 10rem;
+        object-fit: cover;
+        object-position: top;
+}
