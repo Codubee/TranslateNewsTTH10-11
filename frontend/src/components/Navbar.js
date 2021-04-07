@@ -13,7 +13,7 @@ function MyNavBar(){
        <Navbar className="navbar" navbar>
           <Nav>
               <NavItem>
-              <NavLink href="/Home" id="nav-link">Home</NavLink>
+              <NavLink href="/" id="nav-link">Home</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/News" id="nav-link">News</NavLink>

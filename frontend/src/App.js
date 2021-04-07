@@ -1,9 +1,9 @@
 import './App.css';
 import MyNavBar from './components/Navbar';
 import LandingPage from './views/LandingPage'
-import MatchPage from './views/MatchPage'
+import NewsPage from './views/NewsPage'
 import Navbar from './components/Navbar'
-import{
+import {
   BrowserRouter as Router,
   Switch,
   Route
@@ -13,17 +13,17 @@ function App() {
   return (
     //Allows us to switch between pages with the Navbar using React Router.
     <div>
-    <Navbar/>
-    <Router>
-    <Switch>
-    <Route path="/News">
-        <MatchPage/>
-      </Route>
-      <Route path="/">
-        <LandingPage/>
-      </Route>
-    </Switch>
-    </Router>
+      <Navbar />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          <Route path="/News">
+            <NewsPage />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
