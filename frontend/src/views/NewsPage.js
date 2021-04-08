@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import LocalNews from '../components/LocalNews'
 
-function News(){
+function NewsPage(){
     return(
         <Container>
             <LocalNews/>
@@ -10,4 +10,4 @@ function News(){
     )
 }
 
-export default News;
+export default NewsPage;

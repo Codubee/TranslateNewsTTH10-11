@@ -1,32 +1,30 @@
 import './App.css';
-import React from 'react';
+import Navbar from './components/Navbar';
+import LandingPage from './views/LandingPage'
+import NewsPage from './views/NewsPage'
+import Navbar from './components/Navbar'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
 } from "react-router-dom";
-import LandingPage from './views/LandingPage'
-import Navbar from './components/Navbar'
-import News from './views/News'
 
 function App() {
   return (
+    //Allows us to switch between pages with the Navbar using React Router.
     <div>
-      <Navbar/>
+      <Navbar />
       <Router>
-        <React.Fragment>
         <Switch>
-            <Route path="/News">
-              <News/>
-            </Route>
-            <Route path="/">
-              <LandingPage/>
-            </Route>
-          </Switch>
-          </React.Fragment>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          <Route path="/News">
+            <NewsPage />
+          </Route>
+        </Switch>
       </Router>
     </div>
   );
 }
-
 export default App;
