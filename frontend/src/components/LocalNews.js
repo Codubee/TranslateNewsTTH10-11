@@ -7,22 +7,16 @@ function LocalNews() {
     // Create an array of javascript objects
     const LocalNews = [
         {
-            "image": "https://www.kxan.com/wp-content/uploads/sites/40/2021/04/20210404_212507.jpg?w=876&h=493&crop=1",
-            "title": "Austin's homeless strategy officer reveals blueprint for addressing homeless camps",
-            "subtext": "The HEAL Initiative aims to remove those experiencing homelessness from four high-traffic areas in Austin and connect them with housing and ...",
-            "url": "https://www.kvue.com/article/news/local/homeless/austin-heal-initiative-blueprint/269-87e567c1-db50-403b-b186-6875eb752cb2",
+            "image": "imageurl",
+            "title": "news title",
+            "subtext": "some subtext",
+            "url": "news article url"
         },
         {
-            "image": "https://www.kxan.com/wp-content/uploads/sites/40/2021/04/20210404_212507.jpg?w=876&h=493&crop=1",
-            "title": "Austin's homeless strategy officer reveals blueprint for addressing homeless camps",
-            "subtext": "At least two people were shot and one person was reportedly stabbed near an east Austin park Sunday night, the Austin Police Department says.",
-            "url": "https://www.kxan.com/news/local/austin/at-least-2-injured-in-reported-shooting-near-east-austin-park/",
-        },
-        {
-            "image": "https://www.kxan.com/wp-content/uploads/sites/40/2021/04/20210404_212507.jpg?w=876&h=493&crop=1",
-            "title": "Austin's homeless strategy officer reveals blueprint for addressing homeless camps",
-            "subtext": "The HEAL Initiative aims to remove those experiencing homelessness from four high-traffic areas in Austin and connect them with housing and ...",
-            "url": "https://www.kxan.com/news/local/austin/at-least-2-injured-in-reported-shooting-near-east-austin-park/",
+            "image": "imageurl",
+            "title": "news title",
+            "subtext": "some subtext",
+            "url": "news article url"
         },
     ]
     return (

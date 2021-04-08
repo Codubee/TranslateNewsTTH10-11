@@ -12,18 +12,18 @@ import News from './views/News'
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Router>
         <React.Fragment>
-        <Switch>
+          <Switch>
             <Route path="/News">
-              <News/>
+              <News />
             </Route>
             <Route path="/">
-              <LandingPage/>
+              <LandingPage />
             </Route>
           </Switch>
-          </React.Fragment>
+        </React.Fragment>
       </Router>
     </div>
   );
