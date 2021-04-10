@@ -7,13 +7,13 @@ function LocalNews() {
     // Create an array of javascript objects
     const LocalNews = [
         {
-            "image": "imageurl",
+            "image": "image url",
             "title": "news title",
             "subtext": "some subtext",
             "url": "news article url"
         },
         {
-            "image": "imageurl",
+            "image": "image url",
             "title": "news title",
             "subtext": "some subtext",
             "url": "news article url"
