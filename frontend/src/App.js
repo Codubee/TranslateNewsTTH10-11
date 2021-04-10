@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import LandingPage from './views/LandingPage'
 import NewsPage from './views/NewsPage'
-import Navbar from './components/Navbar'
 import {
   BrowserRouter as Router,
   Switch,
