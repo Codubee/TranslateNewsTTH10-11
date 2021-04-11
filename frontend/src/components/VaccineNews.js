@@ -19,6 +19,7 @@ function VaccineNews() {
     ]
     return (
         <div>
+            <h1>Vaccine News</h1>
             <Row>
                 {
                     VaccineNews.map((objVaccine, id) => (
