@@ -22,6 +22,7 @@ function LocalNews() {
     return (
 
         <div className="container">
+            <h1>Local News</h1>
             <Row>
                 {
                     //map to display the articles in cards
