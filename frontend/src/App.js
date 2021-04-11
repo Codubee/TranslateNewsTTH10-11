@@ -2,7 +2,6 @@ import './App.css';
 import MyNavBar from './components/Navbar';
 import LandingPage from './views/LandingPage'
 import NewsPage from './views/NewsPage'
-import Navbar from './components/Navbar'
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,7 +12,7 @@ function App() {
   return (
     //Allows us to switch between pages with the Navbar using React Router.
     <div>
-      <Navbar />
+      <MyNavBar />
       <Router>
         <Switch>
           <Route exact path="/">
@@ -27,5 +26,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

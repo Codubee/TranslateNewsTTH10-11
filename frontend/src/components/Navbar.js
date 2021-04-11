@@ -6,8 +6,7 @@ import {
   NavLink,
 } from 'reactstrap';
 import '../styles/Navbar.css'
-function MyNavBar(){
-
+function MyNavBar() {
   return (
     <div>
        <Navbar className="navbar" navbar>
@@ -23,5 +22,4 @@ function MyNavBar(){
     </div>
   );
 }
-
 export default MyNavBar;

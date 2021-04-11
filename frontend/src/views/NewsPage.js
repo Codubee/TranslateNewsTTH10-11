@@ -1,8 +1,13 @@
 import React from 'react';
-//The heading was just to test the routing, you can erase it when you start adding components.
+import { Container } from 'reactstrap';
+import LocalNews from '../components/LocalNews'
+
 function NewsPage(){
     return(
-        <h1>News Page</h1>
+        <Container>
+            <LocalNews/>
+        </Container>
     )
 }
+
 export default NewsPage;
