@@ -1,10 +1,16 @@
 import React from 'react';
 import VaccineNews from '../components/VaccineNews'
+import { Container } from 'reactstrap';
+import LocalNews from '../components/LocalNews'
 
-//The heading was just to test the routing, you can erase it when you start adding components.
 function NewsPage(){
     return(
-        <VaccineNews/>
+        <Container>
+            <LocalNews/>
+            <VaccineNews/>
+        </Container>
+
     )
 }
+
 export default NewsPage;

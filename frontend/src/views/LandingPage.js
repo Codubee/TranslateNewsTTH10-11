@@ -5,13 +5,13 @@ import Features from '../components/Features'
 import Team from '../components/Team'
 import Tools from '../components/Tools'
 
-function LandingPage(){
-    return(
+function LandingPage() {
+    return (
         <Container>
-            <Explanation/>
-            <Features/>
-            <Team/>
-            <Tools/>
+            <Explanation />
+            <Features />
+            <Team />
+            <Tools />
         </Container>
     )
 }
