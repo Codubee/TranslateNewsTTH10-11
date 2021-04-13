@@ -2,6 +2,7 @@ import React from 'react'
 
 function Lang() { 
     return (
+        <center>
         //user can select their preferred language to read their news articles
         <select data-placeholder="Select a Language">
             <option value="af">Afrikaans</option>
@@ -98,6 +99,7 @@ function Lang() {
             <option value="cy">Welsh</option>
             <option value="yua">Yucatec Maya</option>
         </select>
+        </center>
     )
 }
 
