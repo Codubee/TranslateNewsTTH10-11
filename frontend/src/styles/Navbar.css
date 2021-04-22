@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 .navbar{
-    background-color: #020301;
+    background-color:transparent;
 }
 #nav-link{
-    color:#FFDB15;
+    font-family: 'Muli', sans-serif;
+    color: #9c8e87;
+    font-weight: 600;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 25px;
+
 }

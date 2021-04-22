@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Languages.css'
 
 function Languages() {
     return (
@@ -6,7 +7,7 @@ function Languages() {
         <div>
             <center>
             <h1>Select your language:</h1>
-            <select data-placeholder="Select a Language">
+            <select id="select-language" data-placeholder="Select a Language">
                 <option value="af">Afrikaans</option>
                 <option value="sq">Albanian</option>
                 <option value="am">Amharic</option>

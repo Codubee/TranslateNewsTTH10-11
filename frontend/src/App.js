@@ -11,7 +11,7 @@ import {
 function App() {
   return (
     //Allows us to switch between pages with the Navbar using React Router.
-    <div>
+    <div className="app-div">
       <MyNavBar />
       <Router>
         <Switch>
