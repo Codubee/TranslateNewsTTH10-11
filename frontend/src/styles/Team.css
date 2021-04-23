@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-.local-box{
+.team-box{
         background-color:#F3F5F9 !important;
 }
-#local-title-text{
+.team-container{
+   padding-top: 10em; 
+   padding-bottom: 10em;
+}
+.team-image{
+        height: 20rem;
+        width: 20rem;
+        object-fit: cover;
+        object-position:top;
+}
+#team-title-text{
         font-family: 'Muli', sans-serif;
         color: #b5a197;
         font-weight: 700;
@@ -12,20 +22,11 @@
         letter-spacing: -.003em;
         font-size: 20px;
 }
-#local-subtitle-text{
+#team-subtitle-text{
         font-family: 'Muli', sans-serif;
         color: #F3F5F9;
         font-weight: 200;
         line-height: 1.58;
         letter-spacing: -.003em;
         font-size: 16px;
-}
-.local-container{
-   padding: 1%; 
-}
-.local-image{
-        height: 15rem;
-        width: 10rem;
-        object-fit: cover;
-        object-position: center;
 }

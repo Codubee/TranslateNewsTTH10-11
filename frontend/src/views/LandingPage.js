@@ -7,12 +7,14 @@ import Tools from '../components/Tools'
 
 function LandingPage() {
     return (
-        <Container>
-            <Explanation />
-            <Features />
-            <Team />
+        <div>
+            <Container>
+                <Explanation />
+                <Features />
+                <Team />
+            </Container>
             <Tools />
-        </Container>
+        </div>
     )
 }
 

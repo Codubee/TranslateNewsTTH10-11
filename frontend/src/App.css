@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+h1{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: #B5A197;
+}
+.app-div{
+    background-color:#F3F5F9;
+}

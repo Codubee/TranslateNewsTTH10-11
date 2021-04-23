@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-.local-box{
+.vaccine-box{
         background-color:#F3F5F9 !important;
 }
-#local-title-text{
+#vaccine-title-text{
         font-family: 'Muli', sans-serif;
         color: #b5a197;
         font-weight: 700;
@@ -12,18 +12,19 @@
         letter-spacing: -.003em;
         font-size: 20px;
 }
-#local-subtitle-text{
+#vaccine-subtitle-text{
         font-family: 'Muli', sans-serif;
-        color: #F3F5F9;
+        color: #b5a197;
         font-weight: 200;
         line-height: 1.58;
         letter-spacing: -.003em;
         font-size: 16px;
 }
-.local-container{
+
+.vaccine-container{
    padding: 1%; 
 }
-.local-image{
+.vaccine-image{
         height: 15rem;
         width: 10rem;
         object-fit: cover;
