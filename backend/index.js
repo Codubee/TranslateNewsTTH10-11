@@ -2,16 +2,14 @@ const express = require('express')
 const app = express()
 const axios = require('axios');
 app.use(express.json());
-
-
 /*
     I will leave this here as an example that you can use
     when building your APIs. I suggest that you try to understand
     what each line is doing. Reach out if you have any questions.
 */
-app.get('/exampleApi', function (req, res) {
+app.get('/getVaccineNews', function (req, res) {
 
-    axios.get('https://api.agify.io?name=Mike')
+    axios.get('https://codubee-projects-api.herokuapp.com/translate/getVaccineNews')
     .then(function (response) {
         // handle success and send back a 200 response with the data
         console.log(response.data);
