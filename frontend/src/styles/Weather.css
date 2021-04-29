@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+#weather-p1{
+    font-family: 'Muli', sans-serif;
+    color: #70625a ;
+    font-weight: 200;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 15px;
+}
+#weather-h1{
+    font-family: 'Muli', sans-serif;
+    color: #F3F5F9;
+    font-weight: 200;
+    font-style: bold;
+    line-height: 1.00;
+    letter-spacing: -.003em;
+    font-size: 50px;
+}
+#weather-h6{
+font-family: 'Muli', sans-serif;
+        color: #F3F5F9;
+        font-weight: 200;
+        line-height: .58;
+        letter-spacing: -.003em;
+        font-size: 16px;
+}
+#weather-card{
+    padding: 2rem;
+}
+.weather-box{
+    border-color: transparent !important;
+    background-color:#b5a197c9 !important;
+    height: 250px;
+    padding: 2em;
+}
+.weather-div{
+    padding: 1%; 
+}
+#image{
+    width: 100px;
+}

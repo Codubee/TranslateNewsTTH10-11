@@ -9,8 +9,8 @@ function NewsPage(){
     return(
         <Container>
             <Languages/>
-            <LocalNews/>
             <Weather/>
+            <LocalNews/>
             <VaccineNews/>
         </Container>
 
