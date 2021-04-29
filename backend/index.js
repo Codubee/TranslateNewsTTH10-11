@@ -3,28 +3,60 @@ const app = express()
 const axios = require('axios');
 app.use(express.json());
 
+app.get('/getVaccineNews', function (req, res) {
 
-/*
-    I will leave this here as an example that you can use
-    when building your APIs. I suggest that you try to understand
-    what each line is doing. Reach out if you have any questions.
-*/
-app.get('/exampleApi', function (req, res) {
+    axios.get('https://codubee-projects-api.herokuapp.com/translate/getVaccineNews')
+   .then(function (response) {
+        // handle success and send back a 200 response with the data
+        console.log(response.data);
+        res.status(200).json(response.data);
+    })
+    .catch(function (error) {
+        console.log(error)
+        res.status(400).json({error:"An error occurred"});
+    })
+})
 
-    axios.get('https://api.agify.io?name=Mike')
+app.get('/getLocalNews', function (req, res) {
+    axios.get('https://codubee-projects-api.herokuapp.com/translate/getLocalNews')
+
     .then(function (response) {
         // handle success and send back a 200 response with the data
         console.log(response.data);
         res.status(200).json(response.data);
     })
     .catch(function (error) {
-        /* 
-            It is good practice to handle the error and send back the 
-            error message that was received from the API call
-        */ 
         console.log(error)
         res.status(400).json({error:"An error occurred"});
     })
 })
+
+app.get('/getNationalNews', function (req, res) {
+    axios.get('https://codubee-projects-api.herokuapp.com/translate/getNationalNews')
+    .then(function(response){
+        //handle success and send back 200 response with the data
+        console.log(response.data);
+        res.status(200).json(response.data);
+    })
+    .catch(function (error) {
+        //error message
+        console.log(error)
+        res.status(400).json({error:"An error occurred"});
+    })
+})
+app.get('/getNationalNews', function (req, res) {
+    axios.get('https://codubee-projects-api.herokuapp.com/translate/getWeather')
+    .then(function(response){
+        //handle success and send back 200 response with the data
+        console.log(response.data);
+        res.status(200).json(response.data);
+    })
+    .catch(function (error) {
+        //error message
+        console.log(error)
+        res.status(400).json({error:"An error occurred"});
+    })
+})
+
 
 app.listen(8080, () => console.log('Listening at locahost:8080'))
