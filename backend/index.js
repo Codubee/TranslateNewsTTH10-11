@@ -13,7 +13,7 @@ app.post('/translateNews', function (postmanReq, postmanRes) {
 
    console.log(postmanReq.body)
 
-    //Make a post request with the name query parameter
+    //Make a post request with the language query parameter
     axios.post('https://codubee-projects-api.herokuapp.com/translate/translateNews?language='+ language, postmanReq.body)
     .then(function (response) {
         // handle success and send back a 200 response with the data
