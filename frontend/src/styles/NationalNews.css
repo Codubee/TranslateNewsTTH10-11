@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.national-box{
+        background-color:#F3F5F9 !important;
+}
+#national-title-text{
+        font-family: 'Muli', sans-serif;
+        color: #b5a197;
+        font-weight: 700;
+        font-style: bold;
+        line-height: 1.58;
+        letter-spacing: -.003em;
+        font-size: 20px;
+}
+#national-subtitle-text{
+        font-family: 'Muli', sans-serif;
+        color: #F3F5F9;
+        font-weight: 200;
+        line-height: 1.58;
+        letter-spacing: -.003em;
+        font-size: 16px;
+}
+.national-container{
+   padding: 1%; 
+}
+.national-image{
+        height: 15rem;
+        width: 10rem;
+        object-fit: cover;
+        object-position: center;
+}
