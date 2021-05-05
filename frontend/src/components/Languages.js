@@ -9,7 +9,6 @@ class Languages extends React.Component {
     }
 
     handleChange(event){
-        console.log(event.target.value)
         localStorage.setItem('language', event.target.value);
     }
 

@@ -13,6 +13,8 @@ class NewsPage extends React.Component {
     }
     changeLanguage(){
         //API call to translate the news goes here
+        var language = localStorage.getItem('language')
+        console.log(language)
     }
 
     render() {
