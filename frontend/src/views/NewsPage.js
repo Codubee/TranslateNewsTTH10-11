@@ -1,20 +1,32 @@
 import React from 'react';
 import VaccineNews from '../components/VaccineNews'
-import { Container } from 'reactstrap';
+import { Container,Button } from 'reactstrap';
 import LocalNews from '../components/LocalNews'
 import Weather from '../components/Weather'
 import Languages from '../components/Languages';
 
-function NewsPage(){
-    return(
-        <Container>
-            <Languages/>
-            <Weather/>
-            <LocalNews/>
-            <VaccineNews/>
-        </Container>
+class NewsPage extends React.Component {
 
-    )
+    constructor(props){
+        super(props)
+        this.changeLanguage = this.changeLanguage.bind(this)
+    }
+    changeLanguage(){
+        //API call to translate the news goes here
+    }
+
+    render() {
+        return (
+            <Container>
+                <Languages />
+                <Button onClick={this.changeLanguage}>Submit</Button>
+                <Weather />
+                <LocalNews />
+                <VaccineNews />
+            </Container>
+
+        )
+    }
 }
 
 export default NewsPage;
