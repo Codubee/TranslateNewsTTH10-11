@@ -7,22 +7,14 @@ class LocalNews extends React.Component {
     // Create an array of javascript objects
     constructor(props) {
         super(props);
-        const LocalNews = [
-            {
-                "text": "",
-                "url": ""
-            },
-        ]
-        this.state = {LocalNews};
-        console.log(this.state);
+        this.state = {LocalNews:[]};
     }
     componentDidMount(){
         axios.get("/getLocalNews")
             .then((response) => {
                 console.log(response);
                 this.setState({
-                    text: response.data.text,
-                    url: response.data.url
+                    LocalNews: response.data
                 })
             })
     }
