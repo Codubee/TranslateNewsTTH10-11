@@ -4,6 +4,7 @@ import { Container,Button } from 'reactstrap';
 import LocalNews from '../components/LocalNews'
 import Weather from '../components/Weather'
 import Languages from '../components/Languages';
+import NationalNews from '../components/NationalNews';
 
 class NewsPage extends React.Component {
 
@@ -22,9 +23,10 @@ class NewsPage extends React.Component {
             <Container>
                 <Languages />
                 <Button onClick={this.changeLanguage}>Submit</Button>
-                <Weather />
-                <LocalNews />
-                <VaccineNews />
+                <Weather/>
+                <LocalNews/>
+                <NationalNews/>
+                <VaccineNews/>
             </Container>
 
         )
