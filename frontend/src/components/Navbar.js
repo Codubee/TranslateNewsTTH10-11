@@ -9,7 +9,7 @@ import '../styles/Navbar.css'
 function MyNavBar() {
   return (
     <div>
-       <Navbar className="navbar" navbar>
+       <Navbar className="navbar">
           <Nav>
               <NavItem>
               <NavLink href="/" id="nav-link">Home</NavLink>
