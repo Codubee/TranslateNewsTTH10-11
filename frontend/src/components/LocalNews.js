@@ -27,7 +27,7 @@ function LocalNews() {
                 {
                     //map to display the articles in cards
                     LocalNews.map((objLocalNews, id) => (
-                        <div>
+                        <div key={id}>
                             {
                                 < Col sm='6' md='4' key={id}>
                                     <Card onClick={() => {
