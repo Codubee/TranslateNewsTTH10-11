@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
 const axios = require('axios');
+var cors = require('cors')
 app.use(express.json()); //reads request post data
+app.use(cors())
 
 // This takes in a langauge query parameter
 // An example request is localhost:8080/translateNews?language=es
@@ -78,4 +80,4 @@ app.get('/getWeather', function (req, res) {
         res.status(400).json({error:"An error occurred"});
     })
 })
-app.listen(8080, () => console.log('Listening at locahost:8080'))
+app.listen(process.env.PORT || 8080, () => console.log('Listening at locahost:8080'))
