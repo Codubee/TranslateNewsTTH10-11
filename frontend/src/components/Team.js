@@ -18,7 +18,7 @@ const cardInfo = [
   {
     image:"https://lh3.googleusercontent.com/pw/ACtC-3cmMk5sBwEuALaMeANBETK9KTZsqsFlUWToCM_x32UGilwfPm3884YEUqY1cd92SZ4S03JJNo9dZkaUgrLDFYfBJJkXyFrGTDotBkphLp_y2NzDTeBrJ2uNYzPoPazYGPoN7jF8LgTatg0SEs2mlIM1mA=s736-no?authuser=0",
     title: "Jane Perez",
-    Subtitle: "Class of 2022",
+    Subtitle: "Class of 2023",
     text: "Computer Science Major at Texas A&M University-San Antonio",
   },
   {
