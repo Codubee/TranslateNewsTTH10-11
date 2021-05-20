@@ -30,7 +30,7 @@ const cardInfo = [
   {
     image:"https://keep.google.com/u/0/media/v2/1kjT0DZbR4ivKhWkX1qBLaUNmWtnC2p8cz_7ujDQE4xCEMga52iOK-L5RbV9IPBs/1JJviNRsP-f4_IufbmwPd4aop7fWagGCuhztIL3YJXkQiVL21nPT3N53iWp3lU1o?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=392",
     title: "Khushi Jogani",
-    Subtitle: "Class of 2024",
+    Subtitle: "Class of 2022",
     text: "Information Technology and Systems Major at the University of Texas at Dallas",
   },
   ];
