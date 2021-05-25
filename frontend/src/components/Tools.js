@@ -4,32 +4,32 @@ const icons=[
     {
         "name":"React",
         "url": "https://reactstrap.github.io/",
-        "img_src":"https://lh3.googleusercontent.com/hJqxG2pKiYBBddonYaPUgdqkQXnfCY9mBL81F3G2jRr-frg3XhiKSGin-G87IjHL0WLt=s85"
+        "img_src":"https://keep.google.com/u/0/media/v2/1V8dCHxUeczxE6RvTRJML_-WwS2qPw4TVgWrORVtqKHncSpjXHZmoS37dOYaYQ5A/1UZdv-I_Z5W-jNC09VFkEi8iT8JWPaoxQDkW9VvxE9mdlaGBHdun6fAMtwaz7rEs?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=400"
     },
     {
         "name":"NodeJS",
         "url": "https://nodejs.org/en/",
-        "img_src":"https://lh3.googleusercontent.com/BV1ENBbmOan310M6dQtL7DMDuSXBda9-FLvdwptpaEYhyLhx6K2yjlfcRiJWte8pzcNDaA=s85"
+        "img_src":"https://keep.google.com/u/0/media/v2/1V8dCHxUeczxE6RvTRJML_-WwS2qPw4TVgWrORVtqKHncSpjXHZmoS37dOYaYQ5A/11mPxJtu8QvLOZJNVLuBzOQiQSAX42Gtc8ypL5riZGoP7TPrPYio85qiU3uuSWg?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=512"
     },
     {
         "name":"Jira",
         "url": "https://www.atlassian.com/software/jira",
-        "img_src":"https://lh3.googleusercontent.com/NR9nTO0u_GNmb6WJSqBc4X4yyAeo_ZACUqqMgHVle2HJiKgOSRDYFdx1vj6-OfezZbaidQ=s85"
+        "img_src":"https://keep.google.com/u/0/media/v2/1V8dCHxUeczxE6RvTRJML_-WwS2qPw4TVgWrORVtqKHncSpjXHZmoS37dOYaYQ5A/1XOIEchFcDnFA_a46geYuh_Jr7e__9uDO-OvHn87sYWJUzhbF9SBIU1VrTEHXzQ?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=480"
     },
     {
         "name":"Postman",
         "url": "https://www.postman.com/",
-        "img_src":"https://lh3.googleusercontent.com/7bRu1BQhQIbXvu6zWLlHULWSPjfckCpS71Eutoh96vo6VrV-KxxJHUJJrXIs2HFTZe83RJw=s85"
+        "img_src":"https://keep.google.com/u/0/media/v2/1V8dCHxUeczxE6RvTRJML_-WwS2qPw4TVgWrORVtqKHncSpjXHZmoS37dOYaYQ5A/1rmlox_5CvpMOul4CyQAXjXdTV6ZZZL8WLDwnMd9-PSsYj7fmkYR-n-jLYNn7kw?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=512"
     },
     {
         "name":"AWS",
         "url": "https://aws.amazon.com/",
-        "img_src":"https://lh3.googleusercontent.com/lkulTOeR4fYWnHQ4MpGfQTBOyWrTczRRJDZ65dqyGB4yA3DOUFrG8GqqdeJtw1d5VoOh=s85"
+        "img_src":"https://keep.google.com/u/0/media/v2/1V8dCHxUeczxE6RvTRJML_-WwS2qPw4TVgWrORVtqKHncSpjXHZmoS37dOYaYQ5A/1WJOuU9CK9Kch1h1SPzcj0efcOsbKnZ7DrYcFUeKScvoo-FZNVDAbs0m_aSiuDw?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=480"
     },
     {
         "name":"Heroku",
         "url": "http://www.herokuapp.com/",
-        "img_src":"https://lh3.googleusercontent.com/lRqlkyK49Q7gsckiUQDpFvtnuWOX7IU_24qAkAiTf8prVj94Z-0w2icppVkR8y9i4Kuz=s85"
+        "img_src":"https://keep.google.com/u/0/media/v2/1V8dCHxUeczxE6RvTRJML_-WwS2qPw4TVgWrORVtqKHncSpjXHZmoS37dOYaYQ5A/1L-7zcrwO17eCGARkNDxqHCXodpD-3Pf6lqvM-JEeTagHNjVFSgU36g1Aikop88o?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=500"
     }
 ]
 function Tools() { 
