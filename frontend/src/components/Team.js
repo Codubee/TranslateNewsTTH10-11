@@ -18,7 +18,7 @@ const cardInfo = [
   {
     image:"https://lh3.googleusercontent.com/pw/ACtC-3cmMk5sBwEuALaMeANBETK9KTZsqsFlUWToCM_x32UGilwfPm3884YEUqY1cd92SZ4S03JJNo9dZkaUgrLDFYfBJJkXyFrGTDotBkphLp_y2NzDTeBrJ2uNYzPoPazYGPoN7jF8LgTatg0SEs2mlIM1mA=s736-no?authuser=0",
     title: "Jane Perez",
-    Subtitle: "Class of 2022",
+    Subtitle: "Class of 2023",
     text: "Computer Science Major at Texas A&M University-San Antonio",
   },
   {
@@ -30,7 +30,7 @@ const cardInfo = [
   {
     image:"https://keep.google.com/u/0/media/v2/1kjT0DZbR4ivKhWkX1qBLaUNmWtnC2p8cz_7ujDQE4xCEMga52iOK-L5RbV9IPBs/1JJviNRsP-f4_IufbmwPd4aop7fWagGCuhztIL3YJXkQiVL21nPT3N53iWp3lU1o?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=392",
     title: "Khushi Jogani",
-    Subtitle: "Class of 2024",
+    Subtitle: "Class of 2022",
     text: "Information Technology and Systems Major at the University of Texas at Dallas",
   },
   ];
